@@ -18,7 +18,7 @@ import { useState } from "react";
 import { fal } from "@fal-ai/client";
 import { Loader2 } from "lucide-react";
 
-import { useToast } from "@/components/ui/use-toast";
+import { useToast } from "@/hooks/use-toast";
 
 export interface ImageResult {
   url: string;
